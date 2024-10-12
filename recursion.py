@@ -1,3 +1,9 @@
+import time
+import sys
+
+N = 100000
+sys.setrecursionlimit(N + 1)
+
 def factorial(n):
     f = 1
     for i in range(2, n + 1):
@@ -12,5 +18,15 @@ def factorial_with_recursion(n):
         return 1
 
 
-print(factorial(10))
-print(factorial_with_recursion(10))
+start_time = time.time()
+x = factorial(N)
+end_time = time.time()
+print(end_time - start_time)
+
+
+start_time = time.time()
+x2 = factorial_with_recursion(N)
+end_time = time.time()
+print(end_time - start_time)
+
+# print(x, x2)
