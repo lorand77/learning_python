@@ -156,6 +156,7 @@ print("abc" != "abc")
 print("arr" < "ahu")
 print("Ab".lower() == "aB".lower())
 print("you've" > "youth club")
+print('A' < 'a')
 
 score = 95
 if score >= 90:
@@ -176,6 +177,7 @@ x = float("nan")
 print(x)
 print(x > 0)
 print(x <= 0)
+print(x == x)
 
 # assign x infinity
 x = float("inf")
