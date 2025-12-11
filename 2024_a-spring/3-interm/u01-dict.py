@@ -1,59 +1,59 @@
-# # lists
+# lists
 
-# # grades = [5,3,2]
+grades = [5,3,2]
 
-# # for i in range(len(grades)):
-# #     print(grades[i])
+for i in range(len(grades)):
+    print(grades[i])
 
-# # for v in grades:
-# #     print(v)
-
-
-# subject_likes = {"math":5, "english":5, "history":5, "art history":4, "music":2}
-
-# # () parenthesis
-# # [] brackets
-# # {} curly brackets
-
-# # print(subject_likes)
-# # print(type(subject_likes))
-
-# # print(subject_likes["music"])
+for v in grades:
+    print(v)
 
 
-# # for k in subject_likes:
-# #     print(f"subject:{k} | grade:{subject_likes[k]}")
+subject_likes = {"math":5, "english":5, "history":5, "art history":4, "music":2}
 
-# # print("*"*20)
+# () parenthesis
+# [] brackets
+# {} curly brackets
 
-# # for k,v in subject_likes.items():
-# #     print(f"subject:{k} | grade:{v}")    
+print(subject_likes)
+print(type(subject_likes))
 
-
-# # print(subject_likes.keys())
-# # print(subject_likes.values())    
-
-# # for k in subject_likes.keys():
-# #     print(f"subject:{k} | grade:{subject_likes[k]}")
-
-# # for v in subject_likes.values():
-# #     print(f"grade:{v}")
+print(subject_likes["music"])
 
 
-# print(subject_likes)
-# #print(len(subject_likes))
+for k in subject_likes:
+    print(f"subject:{k} | grade:{subject_likes[k]}")
 
-# subject_likes["music"] = 1
-# print(subject_likes)
+print("*"*20)
 
-# subject_likes["literature"] = 4
-# print(subject_likes)
+for k,v in subject_likes.items():
+    print(f"subject:{k} | grade:{v}")    
 
-# print("music" in subject_likes)
-# print("PE" in subject_likes)
 
-# subject_likes.pop("music")
-# print(subject_likes)
+print(subject_likes.keys())
+print(subject_likes.values())    
+
+for k in subject_likes.keys():
+    print(f"subject:{k} | grade:{subject_likes[k]}")
+
+for v in subject_likes.values():
+    print(f"grade:{v}")
+
+
+print(subject_likes)
+print(len(subject_likes))
+
+subject_likes["music"] = 1
+print(subject_likes)
+
+subject_likes["literature"] = 4
+print(subject_likes)
+
+print("music" in subject_likes)
+print("PE" in subject_likes)
+
+subject_likes.pop("music")
+print(subject_likes)
 
 
 # from sympy.ntheory import factorint
