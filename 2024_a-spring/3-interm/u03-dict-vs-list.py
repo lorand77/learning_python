@@ -6,16 +6,16 @@ for v in sports:
         print(v)
 
 
-# for i in range(len(sports)):
-#     if sports[i][0:3] == "bas":
-#         print(sports[i])
+for i in range(len(sports)):
+    if sports[i][0:3] == "bas":
+        print(sports[i])
 
 
-# i = 0
-# while i < len(sports):
-#     if sports[i][0:3] == "bas":
-#         print(sports[i])
-#     i = i + 1
+i = 0
+while i < len(sports):
+    if sports[i][0:3] == "bas":
+        print(sports[i])
+    i = i + 1
 
 
 print(len(sports))
