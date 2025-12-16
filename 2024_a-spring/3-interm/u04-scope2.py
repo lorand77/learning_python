@@ -18,6 +18,7 @@ def f():
 def main():
     x = 1
     x = 3
+    f()
     print(x)
 
 main()

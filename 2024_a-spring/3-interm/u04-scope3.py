@@ -1,13 +1,13 @@
 
-# # option 1
+# option 1
 
-# x = 10
+x = 10
 
-# def f(y): 
-#     return x+y
+def f(y): 
+    return x+y
 
-# z = f(2)
-# print(z)
+z = f(2)
+print(z)
 
 
 
