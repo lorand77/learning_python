@@ -1,5 +1,3 @@
-
-
 def factorial_recursion(n):
     if n>1:
         return factorial_recursion(n-1)*n
