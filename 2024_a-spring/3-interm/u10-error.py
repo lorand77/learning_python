@@ -1,15 +1,15 @@
 import random
 
-# (             SyntaxError
-# 1 + "a"       TypeError
-#x              NameError
-#l = [17,8]
-#l[14]          IndexError
-# d = {1:3,5:45}
-# d[4]          KeyError
-#int("12.67")   ValueError
-#9/0            ZeroDivisionError
-#import agh     ModuleNotFoundError
+# (             #SyntaxError
+# 1 + "a"       #TypeError
+# x              #NameError
+l = [17,8]
+# l[14]          #IndexError
+d = {1:3,5:45}
+# d[4]          #KeyError
+# int("12.67")   #ValueError
+# 9/0            #ZeroDivisionError
+# import agh     #ModuleNotFoundError
 
 
 a = 1.3
@@ -40,15 +40,14 @@ def get_divisors(n):
     return sorted(divisors)
 
 
-# print(get_divisors(24))
-# print(get_divisors(3))
-# print(get_divisors(1))
+print(get_divisors(24))
+print(get_divisors(3))
+print(get_divisors(1))
 
-#print(get_divisors(0))   #incorrect
-#print(get_divisors(-2))
-#print(get_divisors("haha"))
-#print(get_divisors(3.4))  #incorrect?
-
+# print(get_divisors(0))
+# print(get_divisors(-2))
+# print(get_divisors("haha"))
+# print(get_divisors(3.4))
 
 for i in range(10):
     n = random.randint(0,100)
@@ -60,9 +59,9 @@ for i in range(10):
 print("*"*50)
 
 
-from sympy.ntheory import factorint
-print(factorint(24))
-#print(factorint("abc"))
-print(factorint(-4))
-print(factorint(0))
-#print(factorint(2.4))
+# from sympy.ntheory import factorint
+# print(factorint(24))
+# #print(factorint("abc"))
+# print(factorint(-4))
+# print(factorint(0))
+# #print(factorint(2.4))
