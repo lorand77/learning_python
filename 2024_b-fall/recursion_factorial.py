@@ -3,6 +3,7 @@ import sys
 
 N = 100000
 sys.setrecursionlimit(N + 1)
+sys.set_int_max_str_digits(1000000)
 
 def factorial(n):
     f = 1
@@ -29,4 +30,6 @@ x2 = factorial_with_recursion(N)
 end_time = time.time()
 print(end_time - start_time)
 
-# print(x, x2)
+print(x)
+print(len(str(x)))
+print(x == x2)

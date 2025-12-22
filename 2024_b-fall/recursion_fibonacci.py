@@ -2,7 +2,7 @@ import time
 import sys
 
 # N = 200000
-N = 5
+N = 10
 sys.setrecursionlimit(1000000)
 
 def fibonacci(n):
