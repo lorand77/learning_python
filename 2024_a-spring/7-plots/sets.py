@@ -1,15 +1,15 @@
 
-# x_list = [1,2,3,2,3]
+x_list = [1,2,3,2,3]
 
-# x_set = {3,2,1}
+x_set = {3,2,1}
 
-# print(x_list)
-# print(type(x_list))
+print(x_list)
+print(type(x_list))
 
-# print(x_set)
-# print(type(x_set))
+print(x_set)
+print(type(x_set))
 
-# print(len(set([1,2,3,1,1,1,2,4])))
+print(len(set([1,2,3,1,1,1,2,4])))
 
 
 A = {1,3,2}
@@ -42,10 +42,10 @@ B = {0,2,4,6}
 
 print(A.union(B))
 print(A.intersection(B))
-#print(A.difference(B))
+print(A.difference(B))
 
-# print(A | B)
-# print(A & B)
+print(A | B)
+print(A & B)
 print(A - B)
 print(B - A)
 
@@ -57,6 +57,7 @@ print(A)
 
 print(set([1,2,3,1,1,1,2,4]))
 print(list({3,1,2}))
+
 
 print({3,2,1})
 print({3.,2.4,1.})

@@ -20,6 +20,18 @@ print(a)
 print(b)
 
 
+a,b = b,a
+
+print(a)    
+print(b)
+
+a,b = 3,4
+(a,b) = (5,6)
+
+print(a)    
+print(b)
+
+
 C = [(1,2),(2,3),(3,4)]
 print(C)
 print(type(C))
